@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5d2261e-dfcb-4130-bc8c-056f4d39fb8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_axet_kaptcha_0_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhang/config/CodeConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhang/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhang/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhang/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhang/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhang/serviceImple/UserServiceImple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhang/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhang/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhang/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhang/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhang/serviceImple/UserServiceImple.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhang/util/CodeUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/github_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/github_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhang/config/CodeConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/github.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhang/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhang/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhang/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhang/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhang/util/CodeUtil.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +124,8 @@
       <workItem from="1575547000640" duration="1257000" />
       <workItem from="1575599272562" duration="1780000" />
       <workItem from="1575601323614" duration="5490000" />
-      <workItem from="1575767355022" duration="5860000" />
+      <workItem from="1575767355022" duration="7505000" />
+      <workItem from="1575794326661" duration="2586000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化完成">
       <created>1575600350509</created>
@@ -160,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575769242078</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="完成kaptcha0.0.9的集成">
+      <created>1575774453146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575774453146</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +165,8 @@
     <MESSAGE value="项目初始化完成" />
     <MESSAGE value="maven基础项目配置完成，导入依赖" />
     <MESSAGE value="登录页面开发完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录页面开发完成" />
+    <MESSAGE value="完成kaptcha0.0.9的集成" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成kaptcha0.0.9的集成" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -190,10 +186,10 @@
       <screen x="0" y="31" width="1920" height="1049" />
     </state>
     <state x="649" y="372" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.31.1920.1049@0.31.1920.1049" timestamp="1575600958860" />
-    <state x="239" y="63" key="CommitChangelistDialog2" timestamp="1575769239868">
+    <state x="239" y="63" key="CommitChangelistDialog2" timestamp="1575774452210">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="239" y="63" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1575769239868" />
+    <state x="239" y="63" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1575774452210" />
     <state x="239" y="64" key="CommitChangelistDialog2/0.31.1920.1049@0.31.1920.1049" timestamp="1575621406573" />
     <state x="784" y="428" key="EnvironmentVariablesDialog" timestamp="1575599957604">
       <screen x="0" y="31" width="1920" height="1049" />
@@ -207,45 +203,45 @@
       <screen x="0" y="31" width="1920" height="1049" />
     </state>
     <state x="805" y="415" width="340" height="280" key="Github.ShareDialog/0.31.1920.1049@0.31.1920.1049" timestamp="1575600403366" />
-    <state width="1867" height="426" key="GridCell.Tab.0.bottom" timestamp="1575772417535">
+    <state width="1867" height="426" key="GridCell.Tab.0.bottom" timestamp="1575796440032">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1867" height="426" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1575772417535" />
+    <state width="1867" height="426" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1575796440032" />
     <state width="1867" height="273" key="GridCell.Tab.0.bottom/0.31.1920.1049@0.31.1920.1049" timestamp="1575638097939" />
-    <state width="1867" height="426" key="GridCell.Tab.0.center" timestamp="1575772417535">
+    <state width="1867" height="426" key="GridCell.Tab.0.center" timestamp="1575796440032">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1867" height="426" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1575772417535" />
+    <state width="1867" height="426" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1575796440032" />
     <state width="1867" height="273" key="GridCell.Tab.0.center/0.31.1920.1049@0.31.1920.1049" timestamp="1575638097939" />
-    <state width="1867" height="426" key="GridCell.Tab.0.left" timestamp="1575772417534">
+    <state width="1867" height="426" key="GridCell.Tab.0.left" timestamp="1575796440032">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1867" height="426" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1575772417534" />
+    <state width="1867" height="426" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1575796440032" />
     <state width="1867" height="273" key="GridCell.Tab.0.left/0.31.1920.1049@0.31.1920.1049" timestamp="1575638097938" />
-    <state width="1867" height="426" key="GridCell.Tab.0.right" timestamp="1575772417535">
+    <state width="1867" height="426" key="GridCell.Tab.0.right" timestamp="1575796440032">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1867" height="426" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1575772417535" />
+    <state width="1867" height="426" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1575796440032" />
     <state width="1867" height="273" key="GridCell.Tab.0.right/0.31.1920.1049@0.31.1920.1049" timestamp="1575638097939" />
-    <state width="1867" height="426" key="GridCell.Tab.1.bottom" timestamp="1575772417535">
+    <state width="1867" height="426" key="GridCell.Tab.1.bottom" timestamp="1575796440033">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1867" height="426" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1575772417535" />
+    <state width="1867" height="426" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1575796440033" />
     <state width="1867" height="273" key="GridCell.Tab.1.bottom/0.31.1920.1049@0.31.1920.1049" timestamp="1575638097939" />
-    <state width="1867" height="426" key="GridCell.Tab.1.center" timestamp="1575772417535">
+    <state width="1867" height="426" key="GridCell.Tab.1.center" timestamp="1575796440032">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1867" height="426" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1575772417535" />
+    <state width="1867" height="426" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1575796440032" />
     <state width="1867" height="273" key="GridCell.Tab.1.center/0.31.1920.1049@0.31.1920.1049" timestamp="1575638097939" />
-    <state width="1867" height="426" key="GridCell.Tab.1.left" timestamp="1575772417535">
+    <state width="1867" height="426" key="GridCell.Tab.1.left" timestamp="1575796440032">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1867" height="426" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1575772417535" />
+    <state width="1867" height="426" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1575796440032" />
     <state width="1867" height="273" key="GridCell.Tab.1.left/0.31.1920.1049@0.31.1920.1049" timestamp="1575638097939" />
-    <state width="1867" height="426" key="GridCell.Tab.1.right" timestamp="1575772417535">
+    <state width="1867" height="426" key="GridCell.Tab.1.right" timestamp="1575796440032">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1867" height="426" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1575772417535" />
+    <state width="1867" height="426" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1575796440032" />
     <state width="1867" height="273" key="GridCell.Tab.1.right/0.31.1920.1049@0.31.1920.1049" timestamp="1575638097939" />
     <state x="240" y="183" key="SettingsEditor" timestamp="1575621531079">
       <screen x="0" y="31" width="1920" height="1049" />

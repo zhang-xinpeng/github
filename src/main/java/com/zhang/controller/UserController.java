@@ -12,8 +12,6 @@ import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
 
 @RestController
 @RequestMapping("user")
@@ -22,13 +20,14 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping("login")
-    public String login(User user) throws UnsupportedEncodingException {
+    public String login(User user) {
         try {
             userService.login(user);
             return "success";
         } catch (Exception e) {
+            System.out.println(e.getMessage());
             e.printStackTrace();
-            return URLEncoder.encode(e.getMessage(), "utf-8");
+            return e.getMessage();
         }
     }
 
