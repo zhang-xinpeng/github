@@ -46,6 +46,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.29" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest:2.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
@@ -91,6 +92,11 @@
           <element id="library" level="project" name="Maven: tk.mybatis:mapper-spring:1.1.5" />
           <element id="library" level="project" name="Maven: tk.mybatis:mapper-extra:1.1.5" />
           <element id="library" level="project" name="Maven: tk.mybatis:mapper-spring-boot-autoconfigure:2.1.5" />
+          <element id="library" level="project" name="Maven: com.github.axet:kaptcha:0.0.6" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: junit:junit:4.12" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:2.1" />
+          <element id="library" level="project" name="Maven: com.jhlabs:filters:2.0.235" />
         </element>
       </element>
       <element id="directory" name="META-INF">
