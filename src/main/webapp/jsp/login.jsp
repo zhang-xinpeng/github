@@ -38,8 +38,8 @@
                                     success: function (data) {
                                         if (data == 'success') {
                                             location.href = '${pageContext.request.contextPath}/jsp/main.jsp';
-                                        }
-                                        alert(data);
+                                        } else
+                                            alert(data);
                                     }
                                 });
                             });
