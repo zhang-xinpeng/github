@@ -19,6 +19,3 @@ spring:
 mybatis:
   mapper-locations: classpath:com/zhang/mapper/*.xml
   type-aliases-package: com.zhang.entity
-logging:
-  level:
-    com.zhang.dao: debug

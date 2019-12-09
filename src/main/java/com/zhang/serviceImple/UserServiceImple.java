@@ -1,5 +1,6 @@
 package com.zhang.serviceImple;
 
+import com.zhang.annocation.CacheAnnocation;
 import com.zhang.dao.UserDao;
 import com.zhang.entity.User;
 import com.zhang.service.UserService;
@@ -20,6 +21,7 @@ public class UserServiceImple implements UserService {
 
     @Override
     @Transactional(propagation = Propagation.SUPPORTS)
+    @CacheAnnocation("find")
     public void login(User user) {
         User u = new User();
         u.setUsername(user.getUsername());

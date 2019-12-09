@@ -1,5 +1,6 @@
 package com.zhang.serviceImple;
 
+import com.zhang.annocation.CacheAnnocation;
 import com.zhang.dao.DeptDao;
 import com.zhang.entity.Dept;
 import com.zhang.service.DeptService;
@@ -19,27 +20,32 @@ public class DeptServiceImple implements DeptService {
 
     @Override
     @Transactional(propagation = Propagation.SUPPORTS)
+    @CacheAnnocation("find")
     public List<Dept> findAll(Integer page, Integer size) {
         return deptDao.selectByRowBounds(new Dept(), new RowBounds((page - 1) * size, size));
     }
 
     @Override
     @Transactional(propagation = Propagation.SUPPORTS)
+    @CacheAnnocation("find")
     public Integer getCount() {
         return deptDao.selectCount(new Dept());
     }
 
     @Override
+    @CacheAnnocation("edit")
     public void add(Dept dept) {
         deptDao.insertSelective(dept);
     }
 
     @Override
+    @CacheAnnocation("edit")
     public void update(Dept dept) {
         deptDao.updateByPrimaryKeySelective(dept);
     }
 
     @Override
+    @CacheAnnocation("edit")
     public void del(Dept dept) {
         deptDao.deleteByPrimaryKey(dept);
     }
